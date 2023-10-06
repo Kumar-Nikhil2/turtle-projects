@@ -1,5 +1,4 @@
 import turtle
-import time
 
 # Create the turtle screen and turtle
 screen = turtle.Screen()
@@ -27,3 +26,4 @@ tp.penup()
 tp.setpos(80, -140)
 tp.pendown()
 tp.ht()
+screen.exitonclick()
